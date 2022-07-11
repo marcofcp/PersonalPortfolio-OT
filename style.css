@@ -160,6 +160,7 @@ table td {
     background-color: var(--cor3);
     color: white;
     padding: 15px;
+    width: 100%;
 }
 .form-send {
     background-color: var(--cor1);
