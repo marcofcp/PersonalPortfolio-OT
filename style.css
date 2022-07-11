@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --cor1: #2196F3;
+    --cor2: #F5F5F5;
+    --cor3: #1F1F1F;
+    --cor4: #111111;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header fixo no scroll */
+
+nav {
+    background-color: black;
+}
+.portfolio {
+    font-weight: bold;
+    font-size: 1.7em;
+    letter-spacing: 2px;
+}
+.nav-link {
+    color: white;
+}
+.nav-link:hover {
+    color: white;
+}
+
+/* Section Apresentação com Imagem de Fundo */
+
+.container-black {
+    background-color: black;
+}
+.section1 {
+    height: 86vh;
+    background-color: var(--cor4);
+    background-image: url("images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.hello {
+    font-size: 3.3em;
+}
+.nome {
+    font-size: 6em;
+    font-weight: bold;
+    line-height: 0.8em;
+}
+.full-stack {
+    font-size: 2em;
+    font-weight: bold;
+}
+.button-about {
+    background-color: var(--cor1);
+    color: var(--cor2);
+    border: none;
+    padding: 10px 30px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+/* Section About Me */
+
+.section-about {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.text-b {
+    color: black;
+}
+.texto-about {
+    text-align: justify;
+}
+.imagem-sapatos img {
+    width: 100%;
+}
+
+/* Section Our Sevices */
+
+.section-services {
+    background-color: black;
+    color: white;
+}
+.cards {
+    flex-wrap: wrap;
+}
+.card-especialidade {
+    background-color: var(--cor3);
+    width: 350px;
+    border: none;
+    transition: 0.3s;
+}
+.card-especialidade:hover {
+    background-color: var(--cor1);
+}
+.imagem i {
+    font-size: 4em;
+}
+.especialidade {
+    font-size: 1.5em;
+}
