@@ -12,7 +12,7 @@
 <body>
     
     <!-- Header fixo no scroll -->
-    <div class="container-fluid container-black sticky-top">
+    <div class="container-fluid container-black sticky-lg-top">
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand text-white py-4 portfolio" href="#">PORTFOLIO</a>
@@ -230,9 +230,35 @@
                             <td>55060</td>
                         </tr>
                     </table>
+                    <table class="fs-5 mt-5">
+                        <tr class="espacamento">
+                            <td><i class="fas fa-phone-alt"></i></td>
+                            <td class="contact-destaque">Phone</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>507-475-6094</td>
+                        </tr>
+                    </table>
+                    <table class="fs-5 mt-5">
+                        <tr class="espacamento">
+                            <td><i class="far fa-envelope"></i></td>
+                            <td class="contact-destaque">E-mail</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>marco_fcp85@hotmail.com</td>
+                        </tr>
+                    </table>
                 </div>
                 <div class="col-lg-7">
                     <h3>Message Me</h3>
+                    <form action="" id="form-contact">
+                        <input type="text" class="my-3" id="form-name" name="form-name" placeholder="Full Name">
+                        <input type="email" class="my-2" id="form-email" name="form-email" placeholder="E-mail">
+                        <textarea name="form-message" class="my-3" id="form-message" cols="88" rows="10" placeholder="Your Message"></textarea>
+                        <button type="submit" class="form-send text-uppercase">SEND</button>
+                    </form>
                 </div>
             </div>
         </div>
